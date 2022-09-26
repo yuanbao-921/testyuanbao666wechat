@@ -115,7 +115,7 @@
     <swiper-item >
       <view class="studyItem">
         <image src="../../images/NO.0007.png"></image>
-        <text class="count">1</text>
+        <text class="count">2</text>
         <view class="studyname">JAVA</view>
       </view>
         <view class="studyItem">
