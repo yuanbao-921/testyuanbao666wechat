@@ -1,0 +1,22 @@
+<view style="margin-top: 70px;">
+<text style="font-size: large;font-weight: 700;">
+Hello Canvas：
+</text>
+</view>
+<view class="s1">
+  <navigator class='chapter-text' url='/pages/chapter one/section1-3/example1/example1' open-type="navigate">
+    <text>
+    点击查看示例
+    </text>
+    </navigator>
+</view>
+<text style="font-size: large;font-weight: 700;">
+Hello Word：
+</text>
+<view class="s2">
+  <navigator class='chapter-text' url='/pages/chapter one/section1-3/example2/example2' open-type="navigate">
+    <text>
+    点击查看示例
+    </text>
+    </navigator>
+</view>

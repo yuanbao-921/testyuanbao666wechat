@@ -1,0 +1,136 @@
+<view class="mybook">
+  <SearchInput></SearchInput>
+</view>
+  <!--轮播图-->
+<view class="swiper-container">
+    <swiper autoplay="true" indicator-dots="true">
+      <swiper-item wx:for="{{ swiperList }}" wx:key="book">
+      <image class="img" mode="aspectFill" src="{{ item.imageUri }}"></image>
+      </swiper-item>
+    </swiper>
+</view>
+    <!--导航-->
+<view class="navContainer">
+  <navigator class="navItem" url="../study/study one/study one" open-type="navigate">
+    <text class="iconfont icon-qikanwuliao"></text>
+    <text>WebGL</text>
+  </navigator>
+  <navigator class="navItem" url="../study/study two/study two" open-type="navigate">
+    <text class="iconfont icon-zhuanyezhishi"></text>
+    <text>开发文档</text>
+  </navigator>
+  <navigator class="navItem" url="../study/study three/study three" open-type="navigate">
+    <text class="iconfont icon-neirongchuangzuo"></text>
+    <text>编程指南</text> 
+  </navigator>
+  <navigator class="navItem" url="../study/study four/study four" open-type="navigate">
+    <text class="iconfont icon-faxian"></text>
+    <text>每日计划</text> 
+  </navigator>
+</view>
+  <!--推荐-->
+<view class="recommendContainer">
+  <view class="header">
+    <text class="title">推荐书籍</text>
+    <view>
+        <text>快来偷偷看书</text>
+        <navigator class="more" url="../study/more book/more book" open-type="navigate">更多</navigator>
+    </view>
+  </view>
+  <!--学习内容-->
+  <scroll-view class="recommendScroll" enable-flex scroll-x>
+    <view class="scrollItem">
+      <image src="../../images/rabbit1.png"></image>
+      <text>查令十字街84号</text>
+    </view>
+    <view class="scrollItem">
+      <image src="../../images/rabbit2.png"></image>
+      <text>flipped</text>
+    </view>
+    <view class="scrollItem">
+      <image src="../../images/rabbit3.png"></image>
+      <text>浮生三世</text>
+    </view>
+    <view class="scrollItem">
+      <image src="../../images/rabbit4.png"></image>
+      <text>言叶之庭</text>
+    </view>
+    <view class="scrollItem">
+      <image src="../../images/rabbit5.png"></image>
+      <text>夏天、烟花和我的尸体</text>
+    </view>
+    <view class="scrollItem">
+      <image src="../../images/rabbit6.png"></image>
+      <text>WebGL编程指南</text>
+    </view>
+  </scroll-view>
+</view>
+  <!--推荐-->
+<view class="topList">
+  <view class="recommendContainer">
+    <view class="header">
+      <text class="title">推荐学习</text>
+      <view>
+        <text>快来看看是否感兴趣</text>
+        <navigator class="more1" url="../study/more study/more study" open-type="navigate">更多</navigator>
+      </view>
+    </view>
+  </view>
+</view>
+  <swiper class="topListSwiper" circular next-margin="50rpx">
+    <swiper-item >
+      <view class="studyItem">
+        <image src="../../images/NO.0001.png"></image>
+        <text class="count">1</text>
+        <view class="studyname">JAVA</view>
+      </view>
+        <view class="studyItem">
+        <image src="../../images/NO.0002.png"></image>
+        <text class="count">2</text>
+        <view class="studyname">C++</view>
+      </view>
+      <view class="studyItem">
+        <image src="../../images/NO.0003.png"></image>
+        <text class="count">3</text>
+        <view class="studyname">C语言</view>
+      </view>
+    </swiper-item>
+    <swiper-item >
+      <view class="studyItem">
+        <image src="../../images/NO.0004.png"></image>
+        <text class="count">4</text>
+        <view class="studyname">pytho</view>
+      </view>
+        <view class="studyItem">
+        <image src="../../images/NO.0005.png"></image>
+        <text class="count">5</text>
+        <view class="studyname">JavaScript</view>
+      </view>
+      <view class="studyItem">
+        <image src="../../images/NO.0006.png"></image>
+        <text class="count">6</text>
+        <view class="studyname">WebGL</view>
+      </view>
+    </swiper-item>
+    <swiper-item >
+      <view class="studyItem">
+        <image src="../../images/NO.0007.png"></image>
+        <text class="count">1</text>
+        <view class="studyname">JAVA</view>
+      </view>
+        <view class="studyItem">
+        <image src="../../images/NO.0008.png"></image>
+        <text class="count">1</text>
+        <view class="studyname">JAVA</view>
+      </view>
+      <view class="studyItem">
+        <image src="../../images/NO.0009.png"></image>
+        <text class="count">1</text>
+        <view class="studyname">JAVA</view>
+      </view>
+    </swiper-item>
+  </swiper>
+
+
+
+

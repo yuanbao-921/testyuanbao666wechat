@@ -1,0 +1,73 @@
+{
+  "pages" :[ 
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/setup/setup",
+    "pages/book/book",
+    "pages/chapter one/chapter one",
+    "pages/chapter two/chapter two",
+    "pages/chapter three/chapter three",
+    "pages/chapter one/section1-1/section1-1",
+    "pages/chapter one/section1-2/section1-2",
+    "pages/chapter one/section1-3/section1-3",
+    "pages/chapter one/section1-4/section1-4",
+    "pages/chapter two/section2-1/section2-1",
+    "pages/chapter two/section2-2/section2-2",
+    "pages/chapter two/section2-3/section2-3",
+    "pages/chapter two/section2-4/section2-4",
+    "pages/chapter three/section3-1/section3-1",
+    "pages/chapter three/section3-2/section3-2",
+    "pages/chapter three/section3-3/section3-3",
+    "pages/chapter three/section3-4/section3-4",
+    "pages/chapter one/section1-3/example1/example1",
+    "pages/chapter one/section1-3/example2/example2",
+    "pages/search/search",
+    "pages/study/study one/study one",
+    "pages/study/study two/study two",
+    "pages/study/study three/study three",
+    "pages/study/study four/study four",
+    "pages/study/more book/more book",
+    "pages/study/more study/more study"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#FFFFCC",
+    "navigationBarTitleText": "Roy",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  },
+  
+  "tabBar": {
+    "color": "#660099",
+    "selectedColor": "#000CCC",
+    "backgroundColor": "#FFFFFF",
+
+  "list": [
+    {
+    "pagePath": "pages/index/index",
+    "text": "主页",
+    "iconPath": "images/home1.png",
+    "selectedIconPath": "images/home2.png"
+  },
+  {
+    "pagePath": "pages/setup/setup",
+    "text": "目录",
+    "iconPath": "images/Show.png",
+    "selectedIconPath": "images/Subtract.png"
+  },
+  {
+    "pagePath": "pages/book/book",
+    "text": "笔记",
+    "iconPath": "images/book1.png",
+    "selectedIconPath": "images/book2.png"
+  }
+  
+  
+]
+},
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
+
+

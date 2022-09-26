@@ -1,0 +1,25 @@
+/* pages/chapter one/section1-3/section1-3.wxss */
+.s1{
+  border:2px solid pink;
+  width: 200px;
+  height: 50px;
+  line-height: 17px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: rgba(245, 245, 67, 0.884);
+}
+.s2{
+  border:2px solid pink;
+  width: 200px;
+  height: 50px;
+  line-height: 17px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: rgba(173, 211, 241, 0.767);
+}
+.chapter-text{
+  height: 50px;
+}
+page{
+  background-color: rgb(116, 145, 58);
+}

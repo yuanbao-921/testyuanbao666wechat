@@ -1,0 +1,20 @@
+/* pages/section three/section three.wxss */
+.chapter {
+  margin-top: 40rpx;
+  height: 140rpx;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(245, 220, 153);
+  color: rgb(3, 3, 3);
+  transition: all 300ms;
+  line-height: 140rpx;
+  text-align: left;
+  border-radius: 30rpx;
+}
+.usermotto{
+  font-weight: 700;
+  font-size: large;
+}

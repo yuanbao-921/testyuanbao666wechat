@@ -1,0 +1,6 @@
+.contentContainer1{
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: rgb(217, 252, 234);
+  border-radius: 50rpx;
+}

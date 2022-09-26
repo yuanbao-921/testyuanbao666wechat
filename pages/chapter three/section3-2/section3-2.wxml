@@ -1,0 +1,14 @@
+<!--pages/chapter three/section3-2/section3-2.wxml-->
+
+
+<text style="font-size:large;font-weight: 700;">课程源码</text>
+<view style="margin:20px 20px;text-indent: 2em;">
+如果你认为该电子书对于你来说很有用，可以选择打赏作者6.9元，请作者喝杯茶，鼓励作者开源更多的内容。当然如果你是土豪请随意打赏，作为打赏回馈，我会把玉镯展示案例的源码发送给你，同时把《WebGL快速入门》所有案例源码网盘地址发送给你。
+
+<view style="text-indent: 2em;">微信打赏支持留言，注意打赏的时候留言WebGL+邮箱，以便作者回复。可能有时候工作比较忙回复会不及时，勿急。打赏后，你可以等作者回信，也可以向作者邮箱guolongbang@163.com发送信息已打赏+微信打赏留言，以便作者确认。
+</view>
+</view>
+
+<view>
+<image src='/images/1577336954608.png' width:30px></image>
+</view>

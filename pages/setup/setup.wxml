@@ -1,0 +1,26 @@
+<!--pages/setup/setup.wxml-->
+<view class="container">
+
+  <view class="usermotto">
+    <text class="user-motto">章节</text>
+  </view>
+
+  <view class="chapter">
+    <navigator class='chapter-text' url='/pages/chapter one/chapter one' open-type="navigate" style="width: 654rpx; height: 136rpx; display: block; box-sizing: border-box">
+      <text> 第一章 </text>
+    </navigator>
+  </view>
+
+  <view class="chapter">
+    <navigator class='chapter-text' url='/pages/chapter two/chapter two' open-type="navigate" style="width: 610rpx; height: 143rpx; display: block; box-sizing: border-box">
+      <text> 第二章 </text>
+    </navigator>
+  </view>
+
+  <view class="chapter">
+    <navigator class='chapter-text' url='/pages/chapter three/chapter three' open-type="navigate" style="width: 622rpx; height: 134rpx; display: block; box-sizing: border-box">
+      <text> 终章 </text>
+    </navigator>
+  </view>
+
+</view>

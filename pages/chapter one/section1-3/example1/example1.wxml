@@ -1,0 +1,3 @@
+<!--pages/chapter one/section1-3/example1/example1.wxml-->
+
+<canvas type="2d" id="myCanvas"></canvas>

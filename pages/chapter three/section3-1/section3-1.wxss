@@ -1,0 +1,5 @@
+/* pages/chapter three/section3-1/section3-1.wxss */
+.w3{
+  margin: 150px 30px;
+  font-size: x-large;
+}

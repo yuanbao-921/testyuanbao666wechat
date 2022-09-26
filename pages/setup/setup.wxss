@@ -1,0 +1,28 @@
+.chapter {
+  margin-top: 40rpx;
+  height: 140rpx;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: rgb(233, 203, 203);
+  color: rgb(3, 3, 3);
+  border-radius: 30rpx;
+  transition: all 300ms;
+}
+.chapter-text{
+   display: block;
+  font-weight: 200;
+  color: brown;
+  text-align: center;
+  line-height: 136rpx;
+  width: 654rpx;
+  height: 136rpx;
+
+}
+
+.usermotto{
+  font-weight: 700;
+  font-size: x-large;
+  padding-bottom: 20px;
+}

@@ -1,0 +1,31 @@
+/* pages/section one/section one.wxss */
+.chapter {
+  margin-top: 100rpx;
+  height: 120rpx;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: powderblue;
+  color: rgb(3, 3, 3);
+  border-radius: 30rpx;
+  transition: all 300ms;
+}
+.chapter-text{
+  display: block;
+  line-height: 130rpx;
+
+}
+.usermotto{
+  font-weight: 700;
+  font-size: large;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100rpx 0;
+  box-sizing: border-box;
+} 

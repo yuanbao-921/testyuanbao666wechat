@@ -1,0 +1,17 @@
+<!--pages/chapter one/section01/section01.wxml-->
+<view class="content" style="width: 713rpx; height: 1013rpx; display: block; box-sizing: border-box">
+  <view class="p1">
+    <text style="font-size:x-large;font-weight: 700;">什么是WebGL:</text>
+  </view>
+  <text style="line-height: 2;">1.WebGL是一项用来在网页上绘制和渲染复杂三维图形，并允许用户与之进行交互的技术。</text>
+
+<view class="p1">
+  <text style="font-size: x-large;font-weight: 700;">WebGL的优势:</text>
+</view>
+      <text style="line-height:2;">1、技术强大但开发却简单，只需要一个文本编辑器和一个浏览器，就可以开始编写三维图形程序了。
+            2、可以使用通用的Web技术发布三维图形程序。
+            3、可以充分利用浏览器功能。
+            4、互联网上有大量现成资料，帮助学习Web。
+      </text>
+
+</view>

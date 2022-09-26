@@ -1,0 +1,8 @@
+<!--pages/chapter one/section1-4/section1-4.wxml-->
+<view>
+  <canvas type="webgl" id="myCanvas"></canvas>
+</view>
+
+  
+   
+ 

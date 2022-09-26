@@ -1,0 +1,2 @@
+<!--pages/chapter one/section1-3/example2/example2.wxml-->
+<canvas type="webgl" id="myCanvas"></canvas>

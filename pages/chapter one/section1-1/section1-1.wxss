@@ -1,0 +1,8 @@
+/* pages/chapter one/section1-1/section01-1.wxss */
+.content{
+  margin: 50rpx 20rpx 10rpx 20rpx;
+  background-color:beige
+}
+.p1{
+  margin-bottom: 20rpx;
+}

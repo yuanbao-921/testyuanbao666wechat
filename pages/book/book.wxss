@@ -1,0 +1,121 @@
+.swiper-container{
+  width: 100vw;
+  height: 210px;
+  margin: 10px auto;
+
+}
+/*轮播图*/
+swiper{
+  height: 100%;
+  
+}
+.img{
+  width: 100%;
+  height: 200px;
+  border-radius: 10rpx;
+}
+/*导航*/
+.navContainer{
+  display: flex;
+}
+
+.navItem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+
+.iconfont{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100rpx;
+  background-color: rgb(247, 239, 239);
+}
+
+/*推荐*/
+.recommendContainer{
+  padding: 20rpx;
+}
+.recommendContainer .header{
+  padding-bottom: 20rpx;
+}
+.recommendContainer .header .title{
+  font-size: 30rpx;
+  line-height: 80rpx;
+  color: #666;
+}
+.recommendContainer .header .more{
+  float: right;
+  border: 1rpx solid #333;
+  padding: 10rpx 20rpx;
+  font-size: 26rpx;
+  border-radius: 30rpx;
+}
+
+/*学习内容*/
+.recommendScroll{
+  display: flex;
+  height: 250rpx;
+}
+.scrollItem{
+  width: 200rpx;
+  margin-right: 20rpx;
+}
+
+.scrollItem image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 10rpx;
+}
+.scrollItem text{
+  text-align: center;
+  font-size: 26rpx;
+  /*单行文本溢出，省略号隐藏*/
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /*多行文本溢出，省略号隐藏*/
+  /*display: -webkit-box;*/
+  /*overflow: hidden;*/
+  /*text-overflow: ellipsis;*/
+  /*-webkit-box-orient: vertical;*/
+  /*对齐模式*/
+  /*-webkit-line-clamp: 2;*/
+  /*设置多行的行数*/
+}
+.recommendContainer .header .more1{
+  float: right;
+  border: 1rpx solid #333;
+  padding: 10rpx 20rpx;
+  font-size: 26rpx;
+  border-radius: 30rpx;
+}
+.topListSwiper{
+  height: 500rpx;
+
+}
+.studyItem{
+  display: flex;
+}
+.swiper-item{
+  width: 96rpx;
+}
+.studyItem image{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 10rpx;
+}
+.studyItem .count{
+  width: 100rpx;
+  height: 150rpx;
+  text-align: center;
+  line-height: 150rpx;
+}
+.studyItem .studyname{
+  height: 150rpx;
+  line-height: 150rpx;
+}

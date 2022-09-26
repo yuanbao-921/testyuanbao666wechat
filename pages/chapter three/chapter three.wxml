@@ -1,0 +1,23 @@
+<!--pages/section three/section three.wxml-->
+<view class="container">
+  <view class="usermotto">
+    <text class="user-motto">结束</text>
+  </view>
+  <view class="chapter">
+    <navigator class='chapter-text' url='/pages/chapter three/section3-1/section3-1' open-type="navigate">
+      <text style="width: 596rpx; height: 132rpx; display: block; box-sizing: border-box"> 3.1感谢</text>
+    </navigator>
+  </view>
+  <view class="chapter">
+    <navigator class='chapter-text' url='/pages/chapter three/section3-2/section3-2' open-type="navigate">
+      <text style="width: 650rpx; height: 136rpx; display: block; box-sizing: border-box"> 3.2课程源码</text>
+    </navigator>
+  </view>
+
+  <view class="chapter">
+    <navigator class='chapter-text' url='/pages/chapter three/section3-3/section3-3' open-type="navigate">
+      <text style="width: 631rpx; height: 134rpx; display: block; box-sizing: border-box"> 3.3作者账号</text>
+    </navigator>
+  </view>
+
+  </view>

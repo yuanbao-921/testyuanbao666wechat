@@ -1,0 +1,4 @@
+<!--pages/chapter three/section3-1/section3-1.wxml-->
+<view class="w3">
+<text>感谢大家选择阅读《WebGL教程》电子书，祝大家都有一个好的收获。</text>
+</view>

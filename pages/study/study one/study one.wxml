@@ -1,0 +1,21 @@
+<view class="contentContainer1">
+  <view>
+    <text style="font-weight: 700;font-size: 50rpx;">WebGL概述：</text>
+  </view>
+
+  <view class="n1">
+    <text style="color: rgb(5, 34, 71);font-size: 32rpx;">
+      1. WebGL程序包含三种语言：HTML5,JavaScript,GLSL ES；\n
+      2. WebGL相关组件：canvas,对象（部分场景采用3D实体对象，由三角形构成），光照，相机；\n
+      3. WebGL是一项用来在网页上绘制和渲染复杂三维图形（3D图形），并允许用户与之进行交互技术；\n
+      4. WebGL技术结合了HTML5和 JavaScript，允许开发者在网页(Web页面)上创建和渲染三维图形；\n
+      5. HTML5作为最新的HTML标准,扩展了传统HTML 的特性,如二维图形、网络传输.本地数据存储等；\n
+      6. WcbGL是内嵌在浏览器中的，是基于浏览器(而不是基于操作系统)的，可以在多种平台上运行WebGL程序；\n
+      7. 由于着色器代码GLSL ES内嵌在JavaScript 中，所以WebGL网页的文件结构和传统网页一样。\n
+    </text>
+  </view>
+  <view>
+      <text style="font-weight:700;font-size:40rpx;color:lightsalmon;">WebGL的优势：\n</text>
+      <text style="display: block;text-indent: 2em;color: rgb(53, 4, 28);">WebGL允许JavaScript在网页上显示和操作三维图形。</text>
+    </view>
+</view>

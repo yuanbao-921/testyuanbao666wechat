@@ -1,0 +1,30 @@
+<view class="contentContainer2">
+  <view style="font-size: 50rpx;font-weight: 700;"> 
+    全局配置
+  </view>
+  <view>
+    <text style="font-weight: 600;color: rgb(104, 46, 12);">
+    小程序根目录下的 app.json 文件用来对微信小程序进行全局配置。
+    </text>
+  </view>
+  <view>
+    <text>
+      <text style="font-weight: 700;">
+      entryPagePath:</text>
+      小程序的默认启动路径（首页）
+      <text style="font-weight: 700;">
+      pages：</text>
+      用于指定小程序由哪些页面组成每一项都对应一个页面的路径（含文件名）信息。未指定entryPagePath时，数组的第一项代表小程序的初始页面（首页）。
+      <text style="font-weight: 700;">
+      window:</text>
+      用于设置小程序的状态栏、导航条、标题、窗口背景色。
+      <text style="font-weight: 700;">
+      resizable:</text>
+      在 iPad 上运行的小程序可以设置支持屏幕旋转；
+      在 PC 上运行的小程序，用户可以按照任意比例拖动窗口大小，也可以在小程序菜单中最大化窗口\n
+      <text style="font-weight: 700;">
+      App(Object object):</text>
+      App() 必须在 app.js 中调用，必须调用且只能调用一次。不然会出现无法预期的后果。\n
+    </text> 
+  </view>
+</view>
